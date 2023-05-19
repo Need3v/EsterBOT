@@ -39,6 +39,7 @@ If a player gets punished, it can open a punishment revision to the staff team c
 ![enter image description here](https://i.imgur.com/OOuhlfA.png)
 ### Other commands
  - **/ip** - Display the server informations.
+
 ![IP Command](https://i.imgur.com/19Lxytx.png) 
 - **!say (msg)** - Send a message as the bot.
 - **/ping** - Get the ping of the bot.
