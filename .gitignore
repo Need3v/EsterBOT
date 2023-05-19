@@ -1,0 +1,6 @@
+/.idea/
+/out/
+/target/
+/src/main/resources/.envTest
+/src/main/resources/.envProd
+/src/main/resources/.env
