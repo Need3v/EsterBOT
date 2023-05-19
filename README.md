@@ -9,7 +9,8 @@ Includes ticket system, status monitor and utilities commands
 
  - **Ticket Panel**
 Here the user can open a ticket
-![Ticket Panel](https://i.imgur.com/UtQBhQG.png) - **Ticket Form**
+![Ticket Panel](https://i.imgur.com/UtQBhQG.png) 
+- **Ticket Form**
 After the user select a category, a form is open to the user give all needed informations for the ticket
 ![Ticket Form](https://i.imgur.com/fBPCxMr.png)
 - **Ticket Created**
