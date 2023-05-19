@@ -7,7 +7,6 @@ import net.dv8tion.jda.api.entities.MessageEmbed;
 import net.dv8tion.jda.api.entities.MessageReaction;
 import net.dv8tion.jda.api.entities.emoji.Emoji;
 import net.dv8tion.jda.api.events.interaction.ModalInteractionEvent;
-import net.dv8tion.jda.api.events.interaction.component.EntitySelectInteractionEvent;
 import net.dv8tion.jda.api.events.interaction.component.StringSelectInteractionEvent;
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -135,7 +134,7 @@ public class TicketEvents extends ListenerAdapter {
                     .setMaxLength(300)
                     .build();
 
-            Modal modal = Modal.create("ticketrevisao", "Denunciar jogador")
+            Modal modal = Modal.create("ticketrevisao", "Revisão")
                     .addActionRows(ActionRow.of(nick), ActionRow.of(id), ActionRow.of(motivobanimento), ActionRow.of(body))
                     .build();
 
@@ -304,6 +303,7 @@ public class TicketEvents extends ListenerAdapter {
                 for (MessageEmbed.Field field : me.getFields()) {
                     eb3.addField(field);
                     if (field.getName().equalsIgnoreCase("nick")) {
+                        this.nick = field.getValue();
                     }
                 }
                 eb3.addField("Negada por", e.getMember().getNickname(), true);
