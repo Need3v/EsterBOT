@@ -2,6 +2,8 @@ package me.caua.endercraft.esterbot;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import me.caua.endercraft.esterbot.commands.*;
+import me.caua.endercraft.esterbot.listeners.AutoReply;
+import me.caua.endercraft.esterbot.listeners.RateStaff;
 import me.caua.endercraft.esterbot.listeners.ReadyEvent;
 import me.caua.endercraft.esterbot.status.StatusChecker;
 import me.caua.endercraft.esterbot.tickets.TicketCmds;
@@ -33,6 +35,9 @@ public class EsterBOT {
         jda.addEventListener(new TicketCmds());
         jda.addEventListener(new TicketEvents());
         jda.addEventListener(new StatusChecker());
+        jda.addEventListener(new AutoReply());
+        jda.addEventListener(new SetupRateCmd());
+        jda.addEventListener(new RateStaff());
     }
 
 }
