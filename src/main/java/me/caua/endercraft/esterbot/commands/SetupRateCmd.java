@@ -32,7 +32,7 @@ public class SetupRateCmd extends ListenerAdapter {
 
     public static EmbedBuilder sendRateEmbed() {
         EmbedBuilder eb = new EmbedBuilder();
-        eb.setTitle("⭐ Avalie um staff");
+        eb.setTitle("⭐ **Avalie um staff**");
         eb.setThumbnail("https://i.imgur.com/7MWP40P.png");
         //eb.setImage("https://api.loohpjames.com/serverbanner.png?ip=endercraft.com.br&width=1224");
         eb.setFooter("EnderCraft - Todos os direitos reservados.", "https://i.imgur.com/hAGHv6R.png");

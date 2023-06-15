@@ -44,8 +44,8 @@ public class IPCmd extends ListenerAdapter {
         //eb.setImage("https://api.loohpjames.com/serverbanner.png?ip=endercraft.com.br&width=1224");
         eb.setFooter("EnderCraft - Todos os direitos reservados.", "https://i.imgur.com/hAGHv6R.png");
         eb.setDescription("Confira algumas informações do servidor:");
-        eb.addField("<:minecraft_beacon:1104573758213193808> **IP Minecraft Java Edition**", "```endercraft.com.br```**Versão:** 1.19.x", false);
-        eb.addField("<:minecraft_world:1104573698184314900> **IP Minecraft Bedrock Edition**", "```bed.endercraft.com.br``` **Porta:** 19132\n**Versão:** 1.19.80 ou .81 ou .83", false);
+        eb.addField("<:minecraft_beacon:1104573758213193808> **IP Minecraft Java Edition**", "```endercraft.com.br```**Versão:** 1.19.x e 1.20.x", false);
+        eb.addField("<:minecraft_world:1104573698184314900> **IP Minecraft Bedrock Edition**", "```bed.endercraft.com.br``` **Porta:** 19132\n**Versão:** 1.19.80 ou .81 ou 1.20", false);
         eb.addField("**Links**", "<:discord:1104575084401807531> Discord: https://ecbr.me/disc\n <:goldingot:1104805184921681941> Site oficial: https://ecbr.me/site", false);
         eb.setColor(Color.GREEN);
         return eb;
